@@ -10,7 +10,7 @@ from IPython.display import HTML
 st.set_page_config(page_icon="🔢", page_title = "Learnings", initial_sidebar_state = "collapsed")
 
 st.markdown('''# Large numbers law illustrated !
-#### Choose how many time you'd like to throw a 6 face dice, the observe what faces you are getting the most!''')
+#### Choose how many time you'd like to throw a 6 faces dice, then observe what faces you are getting the most!''')
 
 #####################
 n = st.slider("How many trhows ?", 5, 100, 5, step=5)
