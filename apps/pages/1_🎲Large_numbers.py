@@ -2,10 +2,8 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-
 import time
-# from IPython.display import HTML
-# plt.style.use('seaborn')
+
 
 st.set_page_config(page_icon="🔢", page_title = "Learnings", initial_sidebar_state = "collapsed")
 
@@ -41,7 +39,6 @@ def animate(i):
     ax.set_xticks(range(2,13))
     ax.set_title(i+1)
 
-## By clicking the button
 if st.button("Throw the dice", key="launch"):
 
     figure = st.pyplot(fig)
