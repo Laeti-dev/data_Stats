@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 import time
-from IPython.display import HTML
+# from IPython.display import HTML
 # plt.style.use('seaborn')
 
 st.set_page_config(page_icon="🔢", page_title = "Learnings", initial_sidebar_state = "collapsed")
@@ -15,8 +15,8 @@ st.markdown('''# Large numbers law illustrated !
 #####################
 n = st.slider("How many trhows ?", 5, 100, 5, step=5)
 t = st.radio(
-     "Speed between animation(s)",
-     (.01, .1, .5, 1), index = 0, horizontal = True)
+    "Speed between animation(s)",
+    (.01, .1, .5, 1), index = 0, horizontal = True)
 #####################
 
 fig, ax = plt.subplots()
